@@ -14,6 +14,7 @@ El proyecto implementa pruebas automatizadas con Jest + Supertest e integración
 
 ## Estructura del proyecto
 
+````markdown
 proyecto-de-integracion/
 ├── src/
 │   ├── config/               # Configuración de Sequelize y base de datos
@@ -27,6 +28,7 @@ proyecto-de-integracion/
 ├── package.json
 ├── jest.config.js
 └── README.md
+```
 
 ## Tecnologias utilizadas
 | Componente    | Tecnología                 |
