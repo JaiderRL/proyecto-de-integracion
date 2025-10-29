@@ -1,7 +1,7 @@
 
 const express = require("express");
 const sequelize = require("./config/database.js");
-const taskRoutes = require('./routes/taskroutes.js');
+const taskRoutes = require('./routes/task-routes.js');
 
 const app = express();
 app.use(express.json());
