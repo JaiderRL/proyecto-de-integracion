@@ -23,8 +23,6 @@ jobs:
 
       - name: Instalar dependencias
         run: npm install
-        working-directory: ./proyecto-integracion
 
       - name: Ejecutar pruebas
         run: npm test
-        working-directory: ./proyecto-integracion
