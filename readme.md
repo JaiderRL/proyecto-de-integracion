@@ -28,7 +28,7 @@ proyecto-de-integracion/
 ├── package.json
 ├── jest.config.js
 └── README.md
-```
+````
 
 ## Tecnologias utilizadas
 | Componente    | Tecnología                 |
