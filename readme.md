@@ -14,7 +14,7 @@ El proyecto implementa pruebas automatizadas con Jest + Supertest e integración
 
 ## Estructura del proyecto
 
-````markdown
+```markdown
 proyecto-de-integracion/
 ├── src/
 │   ├── config/               # Configuración de Sequelize y base de datos
@@ -57,9 +57,9 @@ Por defecto el servidor corre en `http://localhost:3000`
 
 Ejecuta las pruebas con:
 
-````bash
+```bash
 npm test
-````
+```
 
 ## Instalacion y ejecucion
 
