@@ -22,7 +22,11 @@ jobs:
           node-version: '20'
 
       - name: Instalar dependencias
-        run: npm install
+        run: |
+          npm install
+          npm rebuild sqlite3 --build-from-source
+        env:
+          npm_config_build_from_source: true
 
       - name: Dar permisos de ejecución a jest
         run: chmod +x ./node_modules/.bin/jest
