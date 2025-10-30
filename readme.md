@@ -38,7 +38,6 @@ proyecto-de-integracion/
 | Base de datos | SQLite (con Sequelize ORM) |
 | Pruebas       | Jest + Supertest           |
 | CI/CD         | GitHub Actions             |
-| Documentación | Swagger (OpenAPI 3.0)      |
 
 ## Endponits principales
 
